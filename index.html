@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -22,26 +23,26 @@
           <line stroke-width="2" stroke-linecap="square" x1="0" y1="12" x2="18" y2="12" class="css-1id3nfn exr7l0d1">
           </line>
         </svg>
-        <span>Menu</span>
+        <span style="margin-left: 10px;">Menu</span>
       </div>
       <img src="./assets//Rolex_Logo_PNG_Vector__PDF__Free_Download3-removebg-preview.png" alt="" />
       <div class="header-btn">
         <button>
-          <div>
+          <div class="header-btn-btn">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <span>Search</span>
+            <div data-aos="fade-left">Search</div>
           </div>
         </button>
         <button>
-          <div>
+          <div class="header-btn-btn">
             <i class="fa-solid fa-location-dot"></i>
-            <span>Store locator</span>
+            <div  data-aos="fade-left">Store locator</div>
           </div>
         </button>
         <button>
-          <div>
+          <div class="header-btn-btn">
             <i class="fa-regular fa-heart"></i>
-            <span>Favourites</span>
+            <div  data-aos="fade-left">Favourites</div>
           </div>
         </button>
       </div>
@@ -60,7 +61,7 @@
       </div>
     </section>
     <section>
-      <div class="desc-container ">
+      <div class="desc-container" data-aos-duration="1000" data-aos="fade-up">
         <h2>Explore the Rolex collection</h2>
         <div class="desc ">
           <p class="">
@@ -87,7 +88,7 @@
         <img
           src="/assets//collection-rolex-watches-datejust-m126234-0051-10161_rsa_datejust_31_m278274_0018_carrousel_24.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc">
+        <div class="img-section-desc" data-aos="fade-up">
           <h2>Datejust</h2>
           <div>A watch for the dates to remember</div>
           <a href="#">Discover more &nbsp;
@@ -102,7 +103,7 @@
         <img
           src="/assets/collection-rolex-watches-submariner-m124060-0001-10156_rsa_submariner_41_m124060_0001_carrousel_24.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc">
+        <div class="img-section-desc" data-aos="fade-up">
           <h2>Submariner</h2>
           <div>The supreme diver's watch</div>
           <a href="#">Discover more &nbsp;
@@ -117,7 +118,7 @@
         <img
           src="/assets/collection-rolex-watches-gmt-master-ii-m126710grnr-0004-10149_rsa_topolino_oyster_carrousel_24.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc img-section-black">
+        <div class="img-section-desc img-section-black" data-aos="fade-up">
           <h2>GMT-Master II</h2>
           <div>Two time-zones, two-colours, uniquely iconic</div>
           <a href="#">Discover more &nbsp;
@@ -132,7 +133,7 @@
       <div class="img-section  ">
         <img src="/assets/collection-rolex-watches-day-date-m228235-0055-10150_rsa_cad24_everose_carrousel_24.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc">
+        <div class="img-section-desc" data-aos="fade-up">
           <h2>Day-Date</h2>
           <div>A witness to some of History’s most pivotal moments</div>
           <a href="#">Discover more &nbsp;
@@ -147,7 +148,7 @@
         <img
           src="/assets//collection-rolex-watches-datejust-m126234-0051-10161_rsa_datejust_31_m278274_0018_carrousel_24.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc  img-section-black">
+        <div class="img-section-desc  img-section-black"data-aos="fade-up">
           <h2>Cosmograph Daytona</h2>
           <div>The chronograph that made a watch an icon</div>
           <a href="#">Discover more &nbsp;
@@ -163,7 +164,7 @@
         <img
           src="/assets/collection-rolex-watches-oyster-perpetual-m124300-0001-10159_rsa_oysterperpetual_41_m124300_0001_carrousel_24.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc">
+        <div class="img-section-desc" data-aos="fade-up">
           <h2>Oyster Perpetual</h2>
           <div>Quintessentially Rolex</div>
           <a href="#">Discover more &nbsp;
@@ -178,7 +179,7 @@
         <img
           src="/assets/collection-rolex-watches-yacht-master-m226627-0001-10154_rsa_yachtmaster_42_m226627_0001_carrousel_24.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc  img-section-black">
+        <div class="img-section-desc  img-section-black" data-aos="fade-up">
           <h2>yacht-Master</h2>
           <div>To keep your heading, no matter the circumstances</div>
           <a href="#">Discover more &nbsp;
@@ -193,7 +194,7 @@
       <div class="img-section  ">
         <img src="/assets/collection-rolex-watches-sea-dweller-10158_rsa_seadweller_43_m126603_0001_carrousel_24.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc">
+        <div class="img-section-desc" data-aos="fade-up">
           <h2>Sea-Dweller</h2>
           <div>Citizen of the deep</div>
           <a href="#">Discover more &nbsp;
@@ -207,7 +208,7 @@
       <div class="img-section  ">
         <img src="/assets/collection-rolex-watches-deepsea-m136668lb-0001-10153_rsa_caraibes_44_carrousel_24_ab.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc">
+        <div class="img-section-desc" data-aos="fade-up">
           <h2>Deepsea</h2>
           <div>Extreme divers'watches</div>
           <a href="#">Discover more &nbsp;
@@ -222,7 +223,7 @@
         <img
           src="/assets/collection-rolex-watches-air-king-m126900-0001-10155_rsa_airking_40_m126900_0001_carrousel_24.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc">
+        <div class="img-section-desc" data-aos="fade-up">
           <h2>Air-King</h2>
           <div>An ever-improved homage to the pioneers of the skies</div>
           <a href="#">Discover more &nbsp;
@@ -237,7 +238,7 @@
         <img
           src="/assets/collection-rolex-watches-oyster-perpetual-m124300-0001-10159_rsa_oysterperpetual_41_m124300_0001_carrousel_24.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc  img-section-black">
+        <div class="img-section-desc  img-section-black" data-aos="fade-up">
           <h2>Explorer</h2>
           <div>Unrelenting ally to face it all</div>
           <a href="#">Discover more &nbsp;
@@ -253,7 +254,7 @@
         <img
           src="/assets/collection-rolex-watches-lady-datejust-m279135rbr-0001-10160_rsa_ladydatejust_28_m279135rbr_0001_carrousel_24.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc  img-section-black">
+        <div class="img-section-desc  img-section-black" data-aos="fade-up">
           <h2>Lady-Datejust</h2>
           <div>Confidence carried with grace</div>
           <a href="#">Discover more &nbsp;
@@ -269,7 +270,7 @@
         <img
           src="/assets/collection-rolex-watches-oyster-perpetual-m124300-0001-10159_rsa_oysterperpetual_41_m124300_0001_carrousel_24.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc  img-section-black">
+        <div class="img-section-desc  img-section-black" data-aos="fade-up">
           <h2>Sky-Dweller</h2>
           <div>With the world as its time-zone</div>
           <a href="#">Discover more &nbsp;
@@ -284,7 +285,7 @@
       <div class="img-section  ">
         <img src="/assets/collection-rolex-watches-1908-m52506-0002-10151_rsa_olympe_carrousel_24.avif">
         <!-- <div class="img-section-desc animate__animated animate__backInUp"> -->
-        <div class="img-section-desc  img-section-black">
+        <div class="img-section-desc  img-section-black" data-aos="fade-up">
           <h2>1908</h2>
           <div>The new face of excellence</div>
           <a href="#">Discover more &nbsp;
@@ -515,25 +516,26 @@
         </svg>
         &nbsp;Language</button>
     </div>
-
-
-
   </div>
   <div class="footer-image">
     <img src="assets//rolex-com-footer-rolex-org-push-cc69-1587746.avif" alt="footer">
     <div class="footer-image-desc">
       <p>Discover our Perpetual Initiatives </p>
       <a href="#">
-        Visit Rolex.org <svg class="undefined rtl css-1emgvlg e10fsun60" height="15" width="15"
-        viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="">
-        <path
-          d="M0.1,0.1v14.8h14.8V9h-2v3.7v0.2V13h-0.1h-0.2H2.3H2.1H2v-0.1v-0.2V2.4V2.2V2.1h0.1h0.2H6v-2H0.1z M8.7,0.1v2h2.1h0.5h0.3l-0.2,0.2L11,2.6L5.8,7.8l1.4,1.4L12.4,4l0.4-0.4l0.2-0.2v0.3v0.5v2.1h2V0.1H8.7z">
-        </path>
-      </svg>
+        Visit Rolex.org <svg class="undefined rtl css-1emgvlg e10fsun60" height="15" width="15" viewBox="0 0 15 15"
+          xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="">
+          <path
+            d="M0.1,0.1v14.8h14.8V9h-2v3.7v0.2V13h-0.1h-0.2H2.3H2.1H2v-0.1v-0.2V2.4V2.2V2.1h0.1h0.2H6v-2H0.1z M8.7,0.1v2h2.1h0.5h0.3l-0.2,0.2L11,2.6L5.8,7.8l1.4,1.4L12.4,4l0.4-0.4l0.2-0.2v0.3v0.5v2.1h2V0.1H8.7z">
+          </path>
+        </svg>
       </a>
     </div>
   </div>
   </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
